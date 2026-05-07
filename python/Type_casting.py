@@ -1,12 +1,5 @@
-'''
-Type Casting:
-It is converting one data type into another data type.
-It is used when we need to perform operations between different data type.
-(or) when we want to change  the format of data.
-Types of Type Casting: 1.Implicit 2. Explicit
-
-1.Implicit (automatic):  It is automatically  done by python.
-'''
+#Type Casting:
+#1.Implicit (automatic):  It is automatically  done by python.
 x = 5
 y = 5.5
 z = x+y   #int -> float
@@ -27,13 +20,11 @@ print(y)
 y1 = str(x)
 print(y1)
 
-'''
-y2 = set(x)
-print(y2) -> 'int' object is not iterable
-y3 = list(x)
-print(y3) -> 'int' object is not iterable
-we can say that we convert the int into float and string only.
-'''
+#y2 = set(x)
+#print(y2) -> 'int' object is not iterable
+#y3 = list(x)
+#print(y3) -> 'int' object is not iterable
+#we can say that we convert the int into float and string only.
 
 #float(): 
 x = 18.78
@@ -43,11 +34,10 @@ print(y, type(y))
 y1 = str(x)
 print(y1, type(y1))
 
-'''
-y2 = set(x)
-print(y2)
-print(type(y2))  -> 'float' object is not iterable.
-we can say that we convert the int into float and string only.'''
+#y2 = set(x)
+#print(y2)
+#print(type(y2))  -> 'float' object is not iterable.
+#we can say that we convert the int into float and string only.'''
 
 #string():
 a = "hello"
@@ -59,10 +49,8 @@ print(a2, type(a2))
 a3 = set(a)
 print(a3, type(a3))
 
-'''
-a4 = int(a)
-print(a4, type(a4))   #ValueError: invalid literal for int() with base 10: 'hello'
-'''
+#a4 = int(a)
+#print(a4, type(a4))   #ValueError: invalid literal for int() with base 10: 'hello'
 
 #list():
 print("LIST")
