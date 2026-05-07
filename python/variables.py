@@ -1,18 +1,3 @@
-'''
-A variable is a name that refers to an object stored in memory. 
-When we assign a value, python first creates an object in memory, and then the variable points to that object.
-Rules:
-A variable name must start with a letter(A-Z,a-z) or the underscore character(_).
-A variable name cannot start with a number.
-myvar = "John"
-my_var = "John"
-_my_var = "John"
-myVar = "John"
-MYVAR = "John"
-myvar2 = "John"
-2myvar = "John' ---> declaring wrong variable_name
-'''
-
 x = 10   #x is reference or pointing to the object(10).
 print(x)
 
@@ -30,10 +15,8 @@ b = "world"
 print(a)
 print(b)
 
-'''
-integers, string are immutable.
-new value -> new object
-'''
+#integers, string are immutable.
+#new value -> new object
 
 a = [1,2]
 b = a         #same object
